@@ -1,11 +1,12 @@
-#ifndef CEASAR_H_INCLUDED
-#define CEASAR_H_INCLUDED
-#include<string.h>
+#ifndef CRYPT_H_INCLUDED
+#define CRYPT_H_INCLUDED
+#include<string.h> 
+#include<stdlib.h>
+void xorMutable(char* inputString, char* key);
+char* xorImmutable(char* inputString, char* key);
+
 void ceasarEncoderMutable(char* inputString, int key);
 void ceasarDecoderMutable(char* inputString, int key);
 char* ceasarEncoderImmutable(char* inputString, int key);
 char* ceasarDecoderImmutable(char* inputString, int key);
-
-
-
-#endif // CEASAR_H_INCLUDED
+#endif // CRYPT_H_INCLUDED

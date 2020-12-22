@@ -2,13 +2,9 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "ceasar.h"
-#include "xor.h"
-#include "delspace.h"
-#include "toupper.h"
-#include "tolower.h"
-#include "strip.h"
-#include "delexcess.h"
+#include "crypt.h"
+#include "stringutilities.h"
+
 
 int main(int argc, char* argv[])
 {

@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "ceasar.h"
-#include "xor.h"
+#include "crypt.h"
+
 
 
 
